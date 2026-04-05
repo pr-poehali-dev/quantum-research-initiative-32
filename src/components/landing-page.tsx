@@ -13,12 +13,10 @@ export function LandingPage() {
   const themeConfig = themes[theme]
 
   const [targetDate, setTargetDate] = useState<Date>(() => {
-    const date = new Date()
-    date.setDate(date.getDate() + 7)
-    return date
+    return new Date("2026-09-05T14:00:00")
   })
 
-  const [days, setDays] = useState("7")
+  const [days, setDays] = useState("153")
   const [hours, setHours] = useState("0")
   const [minutes, setMinutes] = useState("0")
   const [seconds, setSeconds] = useState("0")
@@ -48,101 +46,101 @@ export function LandingPage() {
     }
   > = {
     "minimal-light": {
-      badge: "Скоро запуск",
-      title: "Будущее",
-      highlight: "продуктивности",
+      badge: "Приглашение на свадьбу",
+      title: "Елизавета",
+      highlight: "и Дмитрий",
       subtitle:
-        "Мы создаем то, что изменит ваш подход к работе. Просто, мощно и современно.",
-      cta: "Получить ранний доступ",
+        "С радостью приглашаем вас разделить с нами этот особенный день — день, когда мы станем одной семьёй.",
+      cta: "Подтвердить присутствие",
       features: [
-        { icon: Sparkles, text: "На базе ИИ" },
-        { icon: Zap, text: "Молниеносно" },
-        { icon: Shield, text: "Приватность" },
+        { icon: Sparkles, text: "5 сентября 2026" },
+        { icon: Zap, text: "Торжественная церемония" },
+        { icon: Shield, text: "Банкет" },
       ],
     },
     dark: {
-      badge: "Скоро старт",
-      title: "Новый уровень",
-      highlight: "эволюции",
-      subtitle: "Новый стандарт цифрового опыта. Создано для тех, кто требует лучшего.",
-      cta: "Встать в очередь",
+      badge: "Приглашение на свадьбу",
+      title: "Елизавета",
+      highlight: "и Дмитрий",
+      subtitle: "С радостью приглашаем вас разделить с нами этот особенный день — день, когда мы станем одной семьёй.",
+      cta: "Подтвердить присутствие",
       features: [
-        { icon: Sparkles, text: "Новое поколение" },
-        { icon: Zap, text: "Сверхскорость" },
-        { icon: Shield, text: "Для бизнеса" },
+        { icon: Sparkles, text: "5 сентября 2026" },
+        { icon: Zap, text: "Торжественная церемония" },
+        { icon: Shield, text: "Банкет" },
       ],
     },
     retro: {
-      badge: "Отправление скоро",
-      title: "Ваше путешествие",
-      highlight: "начинается здесь",
-      subtitle: "Шагните в мир, где классика встречает инновации. Вечный дизайн, современный функционал.",
-      cta: "Забронировать место",
+      badge: "Свадебное приглашение",
+      title: "Елизавета",
+      highlight: "и Дмитрий",
+      subtitle: "С радостью приглашаем вас разделить с нами этот особенный день — день, когда мы станем одной семьёй.",
+      cta: "Подтвердить присутствие",
       features: [
-        { icon: Sparkles, text: "Вечный дизайн" },
-        { icon: Zap, text: "Мгновенный доступ" },
-        { icon: Shield, text: "Надежность" },
+        { icon: Sparkles, text: "5 сентября 2026" },
+        { icon: Zap, text: "Торжественная церемония" },
+        { icon: Shield, text: "Банкет" },
       ],
     },
     neon: {
-      badge: "[ ИНИЦИАЛИЗАЦИЯ ]",
-      title: "СИСТЕМНЫЙ",
-      highlight: "ПРОРЫВ",
-      subtitle: "Протокол интерфейса нового поколения. Ломаем барьеры. Переопределяем границы.",
-      cta: "НАЧАТЬ ДОСТУП",
+      badge: "✦ СВАДЕБНОЕ ПРИГЛАШЕНИЕ ✦",
+      title: "ЕЛИЗАВЕТА",
+      highlight: "И ДМИТРИЙ",
+      subtitle: "С радостью приглашаем вас разделить с нами этот особенный день — день, когда мы станем одной семьёй.",
+      cta: "ПОДТВЕРДИТЬ ПРИСУТСТВИЕ",
       features: [
-        { icon: Sparkles, text: "КВАНТОВОЕ ЯДРО" },
-        { icon: Zap, text: "ГИПЕРСКОРОСТЬ" },
-        { icon: Shield, text: "ШИФРОВАНИЕ" },
+        { icon: Sparkles, text: "5 СЕНТЯБРЯ 2026" },
+        { icon: Zap, text: "ЦЕРЕМОНИЯ" },
+        { icon: Shield, text: "БАНКЕТ" },
       ],
     },
     monochrome: {
-      badge: "Анонс",
-      title: "Изысканная",
-      highlight: "простота",
-      subtitle: "Где форма встречает функцию. Создано с умыслом, спроектировано для эффекта.",
-      cta: "Получить уведомление",
+      badge: "Свадебное приглашение",
+      title: "Елизавета",
+      highlight: "и Дмитрий",
+      subtitle: "С радостью приглашаем вас разделить с нами этот особенный день — день, когда мы станем одной семьёй.",
+      cta: "Подтвердить присутствие",
       features: [
-        { icon: Sparkles, text: "Продуманно" },
-        { icon: Zap, text: "Эффективно" },
-        { icon: Shield, text: "Надежно" },
+        { icon: Sparkles, text: "5 сентября 2026" },
+        { icon: Zap, text: "Торжественная церемония" },
+        { icon: Shield, text: "Банкет" },
       ],
     },
     glass: {
-      badge: "Превью",
-      title: "За пределами",
-      highlight: "границ",
-      subtitle: "Плавный опыт, который адаптируется под вас. Бесшовно, красиво, интуитивно.",
-      cta: "Запросить доступ",
+      badge: "Приглашение на свадьбу",
+      title: "Елизавета",
+      highlight: "и Дмитрий",
+      subtitle: "С радостью приглашаем вас разделить с нами этот особенный день — день, когда мы станем одной семьёй.",
+      cta: "Подтвердить присутствие",
       features: [
-        { icon: Sparkles, text: "Адаптивно" },
-        { icon: Zap, text: "Бесшовно" },
-        { icon: Shield, text: "Безопасно" },
+        { icon: Sparkles, text: "5 сентября 2026" },
+        { icon: Zap, text: "Торжественная церемония" },
+        { icon: Shield, text: "Банкет" },
       ],
     },
     terminal: {
-      badge: "> status: pending",
-      title: "$ sudo launch",
-      highlight: "--force",
-      subtitle: "// требуется root доступ. ожидание подтверждения развертывания...",
-      cta: "$ subscribe --notify",
+      badge: "> event: wedding_ceremony",
+      title: "$ marry",
+      highlight: "--forever",
+      subtitle: "// Elizaveta & Dmitry. date: 2026-09-05. status: invited. please_confirm_attendance();",
+      cta: "$ confirm --attend",
       features: [
-        { icon: Sparkles, text: "--optimized" },
-        { icon: Zap, text: "--async" },
-        { icon: Shield, text: "--secure" },
+        { icon: Sparkles, text: "2026-09-05" },
+        { icon: Zap, text: "--ceremony" },
+        { icon: Shield, text: "--banquet" },
       ],
     },
     luxury: {
-      badge: "Эксклюзивный превью",
-      title: "Открываем",
-      highlight: "совершенство",
+      badge: "Свадебное приглашение",
+      title: "Елизавета",
+      highlight: "и Дмитрий",
       subtitle:
-        "Для избранных ценителей. Опыт, созданный для тех, кто не соглашается на меньшее.",
-      cta: "Запросить приглашение",
+        "С радостью приглашаем вас разделить с нами этот особенный день — день, когда мы станем одной семьёй.",
+      cta: "Подтвердить присутствие",
       features: [
-        { icon: Sparkles, text: "Уникально" },
-        { icon: Zap, text: "Премиум" },
-        { icon: Shield, text: "Эксклюзив" },
+        { icon: Sparkles, text: "5 сентября 2026" },
+        { icon: Zap, text: "Торжественная церемония" },
+        { icon: Shield, text: "Банкет" },
       ],
     },
   }
@@ -246,7 +244,7 @@ export function LandingPage() {
                 themeConfig.fontClass,
               )}
             >
-              {theme === "terminal" ? "// time_remaining:" : "До запуска"}
+              {theme === "terminal" ? "// time_remaining:" : "До торжества"}
             </p>
             <ThemedCountdown targetDate={targetDate} />
             <button
@@ -383,7 +381,7 @@ export function LandingPage() {
           >
             <Input
               type="email"
-              placeholder={theme === "terminal" ? "your@email.sh" : "Введите email"}
+              placeholder={theme === "terminal" ? "your@email.sh" : "Ваш email для подтверждения"}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className={cn(
@@ -483,7 +481,7 @@ export function LandingPage() {
                 ))}
               </div>
               <span className="text-[10px] sm:text-xs">
-                {theme === "terminal" ? "// 2847 users_waiting" : "Уже 2 847+ в очереди"}
+                {theme === "terminal" ? "// 47 guests_confirmed" : "47 гостей уже подтвердили"}
               </span>
             </div>
           </div>
@@ -501,8 +499,8 @@ export function LandingPage() {
       >
         <p className="text-xs sm:text-sm">
           {theme === "terminal"
-            ? "© 2025 // launchpad_inc | privacy --policy | terms --conditions"
-            : "© 2025 LaunchPad Inc. · Политика конфиденциальности · Условия"}
+            ? "© 2026 // wedding_elizaveta_dmitry | with_love --forever"
+            : "© 2026 Елизавета и Дмитрий · С любовью ♡"}
         </p>
       </footer>
     </div>
